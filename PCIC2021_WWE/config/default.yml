@@ -1,0 +1,12 @@
+parameters:
+    models: POP
+    corruption: [0]
+    alpha: [1.0]
+    rank: [100]
+    gamma: [1.0]
+    iter: 500
+    batch_size: [1024]
+    lambda: [0.0001]
+    clip: [1.0]
+    learning_rate: [0.001]
+    metric: [AUC]

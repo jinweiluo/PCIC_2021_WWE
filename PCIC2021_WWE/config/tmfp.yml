@@ -1,0 +1,12 @@
+parameters:
+    models: TMFP
+    corruption: [0]
+    alpha: [1.0]
+    rank: [16]
+    gamma: [1.0]
+    iter: 1000
+    batch_size: [2048]
+    lambda: [0.1]
+    clip: [1.0]
+    learning_rate: [0.005]
+    metric: [AUC]
