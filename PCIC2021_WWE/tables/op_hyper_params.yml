@@ -1,0 +1,58 @@
+PCIC21:
+  MF:
+    batch_size: 2048
+    lambda: 0.1
+    learning_rate: 0.005
+    rank: 52.0
+  TMF:
+    batch_size: 2048
+    lambda: 0.1
+    learning_rate: 0.01
+    rank: 56.0
+  TMFP:
+    alpha: 0.023844909983539674
+    batch_size: 128
+    gamma: 0.0013034371963566707
+    lambda: 0.0001
+    learning_rate: 0.005
+    rank: 64
+  TMFP1:
+    alpha: 0.010251148943931103
+    batch_size: 512
+    gamma: 0.025425381333655725
+    lambda: 0.0001
+    learning_rate: 0.05
+    rank: 44.0
+  TMFP2:
+    alpha: 0.0171508195410674
+    batch_size: 1024
+    gamma: 0.00100167214382689
+    lambda: 0.0001
+    learning_rate: 0.05
+    rank: 64
+  TMFP3:
+    alpha: 0.01995440258813348
+    batch_size: 2048
+    gamma: 0.0015208918218441762
+    lambda: 0.0001
+    learning_rate: 0.1
+    rank: 52
+  TMFPR:
+    alpha: 0.009441224974930287
+    batch_size: 512
+    gamma: 0.0011086496346469177
+    lambda: 0.0001
+    learning_rate: 0.05
+    rank: 44
+  TMFW:
+    alpha: 0.01276206406302097
+    batch_size: 128
+    lambda: 0.0001
+    learning_rate: 0.01
+    rank: 56
+  TMFW1:
+    alpha: 0.7268179570072089
+    batch_size: 2048
+    lambda: 0.1
+    learning_rate: 0.01
+    rank: 24
